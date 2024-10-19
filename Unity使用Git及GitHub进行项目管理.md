@@ -222,3 +222,9 @@ git reset --hard e7a500回滚到第一次提交
 
 
 Unity使用Git及GitHub .gitignore: https://github.com/github/gitignore/blob/master/Unity.gitignore
+
+
+PS:当权限不够时：
+git config --global --add safe.directory '文件路径'命令
+
+git config --global --add safe.directory 'D:/Windows Kits'
